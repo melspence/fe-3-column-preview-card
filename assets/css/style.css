@@ -78,6 +78,11 @@ textarea:not([rows]) {
 
 /* Custom properties */
 
+.products {
+    margin: auto;
+    width: 327px;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -98,3 +103,12 @@ textarea:not([rows]) {
                             font-weight: 700;
                             font-style: normal;
                         }
+
+.product_card {
+
+}
+
+.product_card_title {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+}
