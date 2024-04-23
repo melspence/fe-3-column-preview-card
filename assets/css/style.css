@@ -115,9 +115,29 @@ textarea:not([rows]) {
 
 .product_card {
     width: 327px;
+    height: 442px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 49px;
+}
+.product_card[sedan] {
+    background-color: var(--Orange-300);
+}
+
+.product_card[suvs] {
+    background-color: var(--cyan-700);
+}
+
+.product_card[luxury] {
+    background-color: var(--cyan-900);
 }
 
 .product_card_title {
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 700;
+    color: var(--gray-100);
+}
+.product_card_content {
+    color: var(--white-200);
 }
